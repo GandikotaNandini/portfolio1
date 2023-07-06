@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>My personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+         <nav>
+          <img src="NANDHU.png" class="logo">
+          <ul id="sidemenu">
+            <li><a href="#header">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#services">services</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#contact">contact</a></li>
+            <i class=""fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class=""fas fa-bars" onclic="openmenu"></i>
+         </nav>
+         <div class="header-text">
+             <p> Web Designer</p>
+             <h1>hi..!<br>i'm <br>Nandini Gandikota</h1>
+        </div>
+    
+      </div>
+    </div>
+    <!-------------about------------------------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+           <div class="about-col-1">
+            <img src="nandini.jpg" alt="" class="image" height="500px">
+           </div>
+           <div class="about-col-2">
+               <h1 class="sub-title">About me</h1>
+               <p>my name is Gandikota Nandini,iam studying btech third year in cvrt college tadipatri ananthapur district. </p>
+               <div class="tab-titles">
+                   <p class="tab-links active-link" onclick="opentab('skiils')">1.skills </p>
+                   <p class="tab-links" onclick="opentab('experiance')"> 2.experiance</p>
+                   <p class="tab-links" onclick="opentab('education')"> 3.educaton</p>
+            
+               </div>
+               <div class="tab-contents" id="skills">
+                <ul>
+                  <li><span>UI/UX</span><br>web interfaces</li>
+                  <li><span>web development</span><br>wweb app development</li>
+                  <li><span>App development</span><br>building androids apps</li>
+                </ul>
+               </div>
+               <div class="tab-contents" id="experience">
+                <ul>
+                  <li><span>2023</span><br>training at CVRT INSTITUTE</li>
+                  <li><span>2023</span><br>wweb app development at smartinternz</li>
+                  <li><span>2023</span><br>building androids apps at smartinternz</li>
+                </ul>
+               </div>
+               <div class="tab-contents" id="education">
+                <ul>
+                  <li><span>2018</span><br>ssc at SPMH school</li>
+                  <li><span>2019-2020</span><br>intermediate at cvrt</li>
+                  <li><span>2020-current</span><br>Btech at cvrt</li>
+                </ul>
+               </div>
+           </div>
+        </div>
+    
+        </div>
+      </div>
+    </div>
+    <!-------------about end-------->
+    <!-----------services----------->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">MY SERVICES</h1>
+        <div class="services-list">
+          <div>
+            <i class="fas fa-code" style="color: black"></i>
+            <h2>web design</h2>
+            <p>services and quality products that render best results</p>
+            <a href="#">learn more</a>
+          </div>
+          <div>
+            <i class="fas fa-crop-alt" style="color:black"></i>
+            <h2>UI/UX design</h2>
+            <p class>creating user interfaces for apps and websites</p>
+            <a href="#">learn more</a>
+          </div>
+          <div>
+            <i class="fab fa-app-store" style="color:black"></i>
+            <h2>APP design</h2>
+            <p>gathering reqirements from business systems analysts and end users</p>
+            <a href="#">learn more</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!------------services end----------->
+    <!------------portfolio-------------->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">Portfolio/ my work</h1> 
+        <div class="worklist">
+          <div class="work">
+            <img src="OIP.jpg" height="150px">
+            <div class="layer">
+              <h3>social media apps</h3>
+              <p> this app contains so many features</p>
+              <a href="#"><i class="fas fa-external-link-alt" style="color: rgb(236, 22, 82);"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="earphones.jpg" height="150px">
+            <div class="layer">
+              <h3>social music apps</h3>
+              <p> this app contains so many features for best music</p>
+              <a href="#"><i class="fas fa-external-link-alt" style="color: rgb(236, 22, 82);"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="mobile scroll.jpg" height="150px">
+            <div class="layer">
+              <h3>online shopping</h3>
+              <p> this app contains so many features for best products</p>
+              <a href="#"><i class="fas fa-external-link-alt" style="color: rgb(236, 22, 82);"></i></a>
+            </div>
+          </div>
+        </div>  
+      </div>
+      <a href="a" class="btn">see more</a>
+
+    </div>
+    <!--------portfolio---------->
+    <!----------contact---------->
+    
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">CONTACT ME</h1>
+            <p><i class="fas fa-paper-plane"></i>mailid:nandinigandikota3@gmail.com</p>
+            <p> <i class="fas fa-phone-square-alt"></i>phno:6303542630</p>
+            <div class="social-icons">
+               <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+               <a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a>
+               <a href="https://instagram.com/""><i class="fab fa-instagram"></i></a>
+               <a href="https://linkdin.com/""><i class="fab fa-linkedin"></i></a>
+            </div>
+            <a href="Share G nandini (1).pdf" class="btn">Download cv</a>
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="your name" required>
+              <input type="email" name="email" placeholder="your email" required>
+              <button type="submit" class="btn">submit</button> 
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>copyright @ gandikota nandini royal</p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementByclassName("tab-links");
+      var tabcontents = docucment.getElementByclassName("tab-contents");
+
+      function opentab(tabname){
+        for(tablink of tablinks){
+          tablink.classlist.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+          tabcontent.classlist.remove("active-tab");
+        }
+        event.currentTarget.classlist.add("active-link"); 
+        document.getElementById(tabname).classlist.add("active-tab");
+      }
+    </script>
+    <script>
+
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu(){
+        sidemenu.style.right = "0";
+      }
+      function closemenu(){
+        sidemenu.style.right = "-2000px";
+      }
+    </script>
+
+  </body>
+</html>
